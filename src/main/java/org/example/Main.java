@@ -6,5 +6,6 @@ public class Main {
 
         forIteration.basicIteration();
         forIteration.triangle();
+        forIteration.enhancedForStatement();
     }
 }
