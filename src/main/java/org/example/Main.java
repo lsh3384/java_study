@@ -4,8 +4,6 @@ public class Main {
     public static void main(String[] args) {
         ForIteration forIteration = new ForIteration();
 
-        forIteration.basicIteration();
-        forIteration.triangle();
-        forIteration.enhancedForStatement();
+        forIteration.iterationWithName();
     }
 }
