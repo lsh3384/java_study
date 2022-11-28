@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.*;
+
 public class ArrayStudy {
     public void printArrayWithForIteration() {
         int[] intArray1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -43,6 +45,18 @@ public class ArrayStudy {
         System.out.println("arr.length:" + arr.length);
         for(int i = 0; i < arr.length; i++)
             System.out.println("arr["+i+"]:" + arr[i]);
-
     }
+
+    public void makeRandomArray() {
+        int [] code = { -4, -1, 3, 6, 11};
+        int [] arr = new int[10];
+
+        for (int i = 0; i < arr.length ; i++) {
+            int tmp = (int) (Math.random() * code.length);
+            arr[i] = code[tmp];
+        }
+
+        System.out.println(Arrays.toString(arr));
+    }
+
 }
