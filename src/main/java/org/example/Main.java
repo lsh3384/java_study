@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayStudy arrayStudy = new ArrayStudy();
-        arrayStudy.makeRandomArray();
+        ForIteration forIteration = new ForIteration();
+        forIteration.printDiagonal();
     }
 }
