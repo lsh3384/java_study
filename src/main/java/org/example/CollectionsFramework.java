@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class CollectionsFramework {
     public void arrayListEx1() {
@@ -48,5 +49,27 @@ public class CollectionsFramework {
         System.out.println("list1:" + list1);
         System.out.println("list2:" + list2);
         System.out.println();
+    }
+
+    public void arrayListEx2() {
+        final int LIMIT = 10;
+        String source = "0123456789abcdefghijABCDEFGHIJ!@#$%^&*()ZZZ";
+        int length = source.length();
+        System.out.println(length);
+
+        List list = new ArrayList(length/LIMIT + 10);
+
+        for(int i = 0; i < length; i+=LIMIT) {
+            if(i+LIMIT < length) {
+                list.add(source.substring(i, i+LIMIT));
+            }
+            else {
+                list.add(source.substring(i));
+            }
+        }
+
+        for(int i=0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
     }
 }
