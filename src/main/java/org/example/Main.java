@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        CollectionsFramework collectionsFramework = new CollectionsFramework();
-        collectionsFramework.arrayListLinkedListTest2();
+        StackAndQueue stackAndQueue = new StackAndQueue();
+        stackAndQueue.staticStackEx1();
     }
 }
