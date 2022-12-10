@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        StackAndQueue stackAndQueue = new StackAndQueue();
-        stackAndQueue.priorityQueueEx();
+        IteratorStudy iteratorStudy = new IteratorStudy();
+        iteratorStudy.iteratorEx1();
     }
 }
