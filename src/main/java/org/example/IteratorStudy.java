@@ -75,4 +75,6 @@ public class IteratorStudy {
         System.out.println("original:" + original);
         System.out.println("copy2:"+ copy2);
     }
+
+
 }
